@@ -3,4 +3,6 @@ void main(List<String> args) {
   final thatList = thisList;
   print(thisList);
   print(thatList);
+  const someList = thisList;
+  //const someList2 = thatList;
 }
